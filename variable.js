@@ -3,6 +3,67 @@ undefined, null, boolean, string, symbol, number, and object  */
 
 // --------- Var Start----------------
 
+
+var a;
+var b=2;
+
+// document.write(a)
+
+a=7;
+b=a;
+
+// document.write(a)
+// document.write(b)
+
+
+
+// Initialize these three variables
+var a=5;
+var b=10;
+var c="I am a";
+
+
+a=a+1;
+b=b+5;
+c=c+" String";
+
+// document.write(a)
+// document.write(b)
+// document.write(c)
+
+
+// -----------------------
+var percent;
+percent= 11%3;
+// document.write(percent)
+
+
+// ---------String Length Check
+
+var firstNameLength=10;
+var firstName= "Ada";
+
+// firstNameLength = firstName.length
+// firstNameLength= firstName[1]
+firstNameLength = firstName.length-1
+
+
+// document.write(firstNameLength)
+document.write(firstNameLength)
+
+// ----------------------------
+// Word Game
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+    var result= "";
+    result += "This "+ myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + ".";
+    return result;
+}
+console.log(wordBlanks("dogs","big", "ran", "quickly"));
+
+// --------------------------------------
+
+
 var myName = "ABCD"
 myName = 81
 
@@ -39,4 +100,15 @@ Second = "World"
 
 
 // --------- Const End----------------
+
+
+
+
+
+
+
+
+
+
+
 
