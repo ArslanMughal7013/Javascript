@@ -67,11 +67,16 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
 var ourArray = [50,60,70];
 var ourData= ourArray[0];
 
-document.write(ourData)
+// document.write(ourData)
 
 var myArray = [50,60,70];
 
 // Arrays ka under Arrays ko Nested Array kehty hai
+
+// Modify Array with index
+myArray[1]= 30;
+
+document.write(myArray)
 
 
 
