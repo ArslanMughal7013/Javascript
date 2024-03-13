@@ -49,7 +49,7 @@ firstNameLength = firstName.length-1
 
 
 // document.write(firstNameLength)
-document.write(firstNameLength)
+// document.write(firstNameLength)
 
 // ----------------------------
 // Word Game
@@ -59,10 +59,23 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
     result += "This "+ myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + ".";
     return result;
 }
-console.log(wordBlanks("dogs","big", "ran", "quickly"));
+// console.log(wordBlanks("dogs","big", "ran", "quickly"));
+// console.log(wordBlanks("bike","slow", "flew", "slowly"));
 
 // --------------------------------------
+// stores multiple values with arrays
+var ourArray = [50,60,70];
+var ourData= ourArray[0];
 
+document.write(ourData)
+
+var myArray = [50,60,70];
+
+// Arrays ka under Arrays ko Nested Array kehty hai
+
+
+
+// -----------------------------------------
 
 var myName = "ABCD"
 myName = 81
