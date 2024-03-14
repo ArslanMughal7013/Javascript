@@ -84,7 +84,14 @@ var myArrays = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
 var myData= myArrays[1][2]
 
-document.write(myData)
+// document.write(myData)
+
+// -----Add Arrays using Push tag
+var ourArrays=['Ali',25,"ji"]
+ourArrays.push(["ASDF", 47])
+
+document.write(ourArrays)
+
 
 
 
