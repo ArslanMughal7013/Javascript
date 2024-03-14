@@ -76,7 +76,17 @@ var myArray = [50,60,70];
 // Modify Array with index
 myArray[1]= 30;
 
-document.write(myArray)
+// document.write(myArray)
+
+// Access multiplay arrays
+
+var myArrays = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+
+var myData= myArrays[1][2]
+
+document.write(myData)
+
+
 
 
 
