@@ -88,12 +88,18 @@ var myData= myArrays[1][2]
 
 // -----Add Arrays using Push tag
 var ourArrays=['Ali',25,"ji"]
-// Add Arrays using push tag
+// Add Arrays using push tag from end
 // ourArrays.push(["ASDF", 47])
 
 
-// Remove Arrays using pop tag
-ourArrays.pop();
+// Remove Arrays using pop tag from end
+// ourArrays.pop();
+
+// Remove arrays using shift tag form start
+ourArrays.shift();
+
+// Add Arrays using unshift tag from start
+ourArrays.unshift(["hasnat"])
 
 document.write(ourArrays)
 
