@@ -150,7 +150,7 @@ function localscope(){
 
 localscope()
 
-// ----------------
+// Global vs Local scope in funtion
 var outerWear = "T-Shirt"
 
 function myOutfit(){
@@ -160,6 +160,17 @@ function myOutfit(){
 document.write(myOutfit());
 
 // document.write(outerWear)     "T-Shirt"
+
+// ---Return a value form function of return
+
+function minusSeven(num){
+    return num-7
+}
+document.write(minusSeven(10))
+
+// ---------------------------
+
+
 
 
 
