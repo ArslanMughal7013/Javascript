@@ -101,9 +101,65 @@ ourArrays.shift();
 // Add Arrays using unshift tag from start
 ourArrays.unshift(["hasnat"])
 
+
+
 document.write(ourArrays)
 
 
+// Function call work data show
+
+function ourfunctionwithargs(){
+   document.write("This is funtion")
+}
+ourfunctionwithargs()
+// --------------------------
+function ourfunctionwitharg(a,b){
+    document.write(a-b)
+ }
+ ourfunctionwitharg(10,5)
+
+
+// -Global function call
+var myGlobal= 10;
+
+function fun1(){
+   oopsGlobal = 15;
+}
+
+function fun2(){
+    var output = " ";
+    if (typeof myGlobal != "undefined"){
+        output += "myGlobal; " + myGlobal
+    }
+    if (typeof oopsGlobal != "undefined"){
+        output += "oopsGlobal: " + oopsGlobal
+    }
+    document.write(output)
+}
+// fun1();
+// fun2();
+
+// ---------------------
+// local scope and funtion
+
+
+function localscope(){
+    var myvar = 30;
+   document.write(myvar)
+}
+
+localscope()
+
+// ----------------
+var outerWear = "T-Shirt"
+
+function myOutfit(){
+    var outerWear = "Sweater"
+    return outerWear
+}
+document.write(myOutfit());
+
+// document.write(outerWear)     "T-Shirt"
 
 
 
