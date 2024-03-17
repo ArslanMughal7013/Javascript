@@ -170,6 +170,27 @@ document.write(minusSeven(10))
 
 // ---------------------------
 
+var changed = 0;
+function change(num){
+    return (num+5)/3
+}
+changed=change(10)
+document.write(changed)
+
+// ------------------------------
+// 
+
+function nextInLine(arr,item){
+    return item;
+}
+
+var testArr = [1,2,3,4,5]
+console.log("Before: " + JSON.stringify(testArr))
+console.log(nextInLine(testArr, 6))
+testArr.push(6)
+console.log("After: " + JSON.stringify(testArr))
+
+// ------------------------------------
 
 
 
