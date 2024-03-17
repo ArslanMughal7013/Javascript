@@ -191,7 +191,25 @@ testArr.push(6)
 console.log("After: " + JSON.stringify(testArr))
 
 // ------------------------------------
+// Working with boolean true false if else condition
+function ourTrueOrFalse(isItTrue){
+    if(isItTrue){
+        return "Yes, it is true"
+    }
+    return "No, it's false"
+}
 
+console.log(ourTrueOrFalse(true))
+// ---------------------
+// Checking condition with boolean equal or not
+function testEqual(val){
+    if(val==12){
+        return "YES, value equal"
+    }
+    return "No, Not Equal"
+}
+console.log(testEqual(10))
+// -----------------------------
 
 
 
