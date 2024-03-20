@@ -265,7 +265,23 @@ function testLogicAndd(val){
     return "No"
 }
 console.log(testLogicAndd(110))
-
+// ---------------------------
+// Test OR operator with login
+function testORLogic(val){
+    if(val <10 || val >20){
+        return "Outside No"
+    }
+    return "Inside Yes"
+}
+console.log(testORLogic(15))
+// ------------------------------
+function testORLogicc(val){
+    if(val >15 || val <10){
+        return "Outside No"
+    }
+    return "Inside Yes"
+}
+console.log(testORLogicc(14))
 
 
 
