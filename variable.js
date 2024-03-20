@@ -247,6 +247,24 @@ function testNotEqual(val){
 
 console.log(testNotEqual(10))
 // ------------------------------
+// Test And Operator with logic
+function testLogicAnd(val){
+    if( val <=50 && val >=25  ){
+        return "Yes"
+
+    }
+    return "No"
+}
+
+console.log(testLogicAnd(20))
+// ------------------------------
+function testLogicAndd(val){
+    if( val >=100 && val <=150 ){
+        return "Yes"
+    }
+    return "No"
+}
+console.log(testLogicAndd(110))
 
 
 
