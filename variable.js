@@ -224,6 +224,29 @@ function greaterThenValue(val){
 console.log(greaterThenValue(10))
 
 // ------------------------------
+// under if else condition also under condition
+function testLogicalAnd(val){
+    if(val<=50){
+        if(val>=25){
+            return "YES"
+        }
+    }
+    return "NO"
+}
+console.log(testLogicalAnd(10))
+
+
+// -----------------------------------
+// Test not Equal in boolean
+function testNotEqual(val){
+      if(val != 99){
+        return "Not Equal"
+      }
+      return "Equal"
+}
+
+console.log(testNotEqual(10))
+// ------------------------------
 
 
 
