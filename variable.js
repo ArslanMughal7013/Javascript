@@ -282,6 +282,68 @@ function testORLogicc(val){
     return "Inside Yes"
 }
 console.log(testORLogicc(14))
+// ----------------------------------
+// if else statement
+function TestElseCode(val){
+    if(val < 5){
+        return "Less than 5 "
+    } else if (val < 15){
+        return "Less than 15"
+    } else{
+        return "Greater than or equal to 10"
+    }
+
+}
+
+console.log(TestElseCode(12))
+// ------------------------------------
+// chained if/else statement to fulfill the following conditions;
+function TestChainedElseCode(val){
+    if(val < 5){
+        return "Tiny"
+    }else if(val < 10){
+        return "Small"
+    }else if(val < 15){
+        return "Medium"
+    }else if(val < 20){
+        return "Large"
+    }else{
+        return "Huge"
+    }
+
+}
+
+console.log(TestChainedElseCode(100))
+// -------------------------------------
+var names = ["Hole-in-one!", "Eagle", " Birdie", "Par", "Bogey", "Double Bogey", "Go Home"]
+function golfScore(par, strokes){
+     if(strokes == 1){
+        return names[0]
+     }else if(strokes <= par -2){
+        return names[1]
+     }else if(strokes == par -1){
+        return names[2]
+     }else if(strokes == par){
+        return names[3]
+     }else if(strokes == par + 1){
+        return names[4]
+     }else if(strokes == par +2){
+        return names[5]
+     }else if(strokes >= par+3){
+        return "Go Home"
+     }
+}
+console.log(golfScore(4,2))
+// ------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
