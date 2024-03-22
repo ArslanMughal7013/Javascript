@@ -335,6 +335,103 @@ function golfScore(par, strokes){
 }
 console.log(golfScore(4,2))
 // ------------------------------------
+// Switch statement start
+function caseInSwitch(val){
+    var answer = "";
+    switch (val){
+        case 1:
+          answer = "alpha";
+          break;
+        case 2:
+            answer = "beta";
+            break;
+        case 3:
+            answer = "gamma";
+            break;
+        case 4:
+            answer = "delta";
+            break;
+    }
+    return answer
+}
+console.log(caseInSwitch(2))
+// ------------------------------------------------------
+function switchOfStuff(val){
+    var answer= "";
+    switch(val){
+        case "a":
+            answer = "apple";
+            break;
+        case "b":
+            answer = "bird";
+            break;
+        case "c":
+            answer = "cat";
+            break;
+        default:
+            answer = "stuff";
+            break;
+    }
+    return answer;
+}
+console.log(switchOfStuff("a"))
+// ----------------------------------------
+function sequentialSized(val){
+    var answer = " ";
+    switch(val){
+        case 1: case 2: case 3:
+            answer = "Low";
+            break;
+        case 4: case 5: case 6:
+                answer = "Mideum";
+                break;
+        case 7: case 8: case 9:
+                    answer = "High";
+                    break;
+    }
+    return answer
+}
+console.log(sequentialSized(1))
+// ------------------------------------
+function SwitchWithConditon(age){
+    var age = "20";
+    switch(true){
+        case (age <=5):  age = "less than 5";
+        break;
+        case (age >= 15): age = "Geater than 15";
+        break;
+        default: console.log("enter the valid date");
+
+    }
+    return age;
+}
+console.log(SwitchWithConditon())
+// ----------------------------
+function SwitchDey(){
+    let date;
+    switch(new Date().getDay()){
+        default: date="Looking forward to the weekend";
+        case 6:  date="today is friday";
+        break;
+        case 0: date="Tomorrow is saturday";
+        break;
+    }
+    return date;
+}
+console.log(SwitchDey())
+// ---------------------------------
+var ages= 15;
+switch(true){
+    case (ages <=17): console.log("your are not eligibale");
+    break;
+    case (ages >=18): console.log("your are eligible");
+    break;
+    default: console.log("please enter your valid age")
+}
+
+
+
+
 
 
 
