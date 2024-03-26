@@ -449,7 +449,35 @@ function golfScores(par, stroke){
         break;
      }
 }
-console.log(golfScores(2,5))
+console.log(golfScores(2,4))
+// ----------------------------------
+// if else convert to switch
+function chainToSwitch(val){
+    var answer = " ";
+switch(true){
+    case (val === "bob"): answer="Marley";
+    break;
+    case (val === 42): answer = "The Answer";
+    break;
+    case (val === 1): answer = "There is no #1";
+    break;
+    case (val === 99): answer = "Missed me by this much!";
+    break;
+    case (val === 7): answer = "Ate Nine";
+}
+return answer;
+}
+console.log(chainToSwitch(42));
+// ---------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
