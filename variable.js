@@ -411,7 +411,7 @@ function SwitchDey(){
     let date;
     switch(new Date().getDay()){
         default: date="Looking forward to the weekend";
-        case 6:  date="today is friday";
+        case 6:  date="today is " + new Date().getDate();
         break;
         case 0: date="Tomorrow is saturday";
         break;
@@ -420,7 +420,7 @@ function SwitchDey(){
 }
 console.log(SwitchDey())
 // ---------------------------------
-var ages= 15;
+var ages= 18;
 switch(true){
     case (ages <=17): console.log("your are not eligibale");
     break;
@@ -428,8 +428,28 @@ switch(true){
     break;
     default: console.log("please enter your valid age")
 }
+// ----------------------------------------------
+function golfScores(par, stroke){
+    var name = ["Hole-in-one!", "Eagle", " Birdie", "Par", "Bogey", "Double Bogey", "Go Home"]
 
-
+     switch(true){
+        case (stroke == 1):  return name[0];
+        break;
+        case (stroke <= par -1): return name[1];
+        break;
+        case (stroke == par -1): return name[2];
+        break;
+        case (stroke == par): return name[3];
+        break;
+        case (stroke == par +1): return name[4];
+        break;
+        case (stroke == par +2): return name[5];
+        break;
+        case (stroke >= par +3): return name[6];
+        break;
+     }
+}
+console.log(golfScores(2,5))
 
 
 
