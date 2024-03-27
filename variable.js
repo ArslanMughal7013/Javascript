@@ -469,6 +469,25 @@ return answer;
 }
 console.log(chainToSwitch(42));
 // ---------------------------------
+// Bollean with if else condition
+function isLess(a,b){
+    if(a<b){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(isLess(10,15))
+// -----------------------------
+function IsLess(a,b){
+    return a<b;
+}
+console.log(IsLess(20,10))
+// -------------------------
+
+
+
 
 
 
