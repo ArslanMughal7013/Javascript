@@ -485,7 +485,21 @@ function IsLess(a,b){
 }
 console.log(IsLess(20,10))
 // -------------------------
-
+function abTest(a,b){
+    if(a<0|| b<0){
+        return undefined
+    }
+    
+    return Math.round(Math.pow(Math.sqrt(a)+ Math.sqrt(b),2))
+    
+    }
+    console.log(abTest(2,2))
+    // -----------------------
+    console.log(Math.random())
+    console.log(Math.floor(3.6))
+    console.log(Math.ceil(2.4))
+    console.log(Math.pow(2,3))
+    console.log(Math.abs(-20))
 
 
 
